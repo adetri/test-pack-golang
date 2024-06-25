@@ -1,11 +1,5 @@
-package main
+package test_paket
 
-import "fmt"
-
-func Sayhi2() {
-	fmt.Println("hi kamu siapa ?????")
-
-}
-func main() {
-
+func Sayhi2() string {
+	return "hello"
 }
